@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monopoly</title>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+<header>
+
+
+<div id="gridContainer">
+
+<div class="row row1">  <!-- start row1 wrapper -->
+  <div class="cell" id="c13"><div class="region-top-surprise c13-region-1"></div><div class="region-middle c13-region-2">BIG SURPRISE</div><div class="region-bottom c13-region-3"><div class="playerBox-1" id="c13-playerBox-1"></div><div class="playerBox-2" id="c13-playerBox-2"></div><div class="playerBox-3" id="c13-playerBox-3"></div></div></div>
+  <div class="cell" id="c14"><div class="region-top-timah c14-region-1"><div class="hotel hotel-1" id="c14-hotel-1"></div><div class="hotel hotel-2" id="c14-hotel-2"></div><div class="hotel hotel-3" id="c14-hotel-3"></div></div><div class="region-middle c14-region-2">Dairy Farm Road</div><div class="region-bottom c14-region-3"><div class="playerBox-1" id="c14-playerBox-1"></div><div class="playerBox-2" id="c14-playerBox-2"></div><div class="playerBox-3" id="c14-playerBox-3"></div></div></div>
+  <div class="cell" id="c15"><div class="region-top-raffles c15-region-1"><div class="hotel hotel-1" id="c15-hotel-1"></div><div class="hotel hotel-2" id="c15-hotel-2"></div><div class="hotel hotel-3" id="c15-hotel-3"></div></div><div class="region-middle c15-region-2">Pan Pacific</div><div class="region-bottom c15-region-3"><div class="playerBox-1" id="c15-playerBox-1"></div><div class="playerBox-2" id="c15-playerBox-2"></div><div class="playerBox-3" id="c15-playerBox-3"></div></div></div>
+  <div class="cell" id="c16"><div class="region-top-raffles c16-region-1"><div class="hotel hotel-1" id="c16-hotel-1"></div><div class="hotel hotel-2" id="c16-hotel-2"></div><div class="hotel hotel-3" id="c16-hotel-3"></div></div><div class="region-middle c16-region-2">Raffles City Mall</div><div class="region-bottom c16-region-3"><div class="playerBox-1" id="c16-playerBox-1"></div><div class="playerBox-2" id="c16-playerBox-2"></div><div class="playerBox-3" id="c16-playerBox-3"></div></div></div>
+  <div class="cell" id="c17"><div class="region-top-park c17-region-1"></div><div class="region-middle c17-region-2">Esplanade Park</div><div class="region-bottom c17-region-3"><div class="playerBox-1" id="c17-playerBox-1"></div><div class="playerBox-2" id="c17-playerBox-2"></div><div class="playerBox-3" id="c17-playerBox-3"></div></div></div>
+  <div class="cell" id="c18"><div class="region-top-noHotel-penaltySpot c18-region-1"></div><div class="region-middle c18-region-2">Punched A Bouncer</div><div class="region-bottom c18-region-3"><div class="playerBox-1" id="c18-playerBox-1"></div><div class="playerBox-2" id="c18-playerBox-2"></div><div class="playerBox-3" id="c18-playerBox-3"></div></div></div>
+  <div class="cell" id="c19"><div class="region-top-surprise c19-region-1"></div><div class="region-middle c19-region-2">BIG SURPRISE</div><div class="region-bottom c19-region-3"><div class="playerBox-1" id="c19-playerBox-1"></div><div class="playerBox-2" id="c19-playerBox-2"></div><div class="playerBox-3" id="c19-playerBox-3"></div></div></div>
+  <div class="cell" id="c20"><div class="region-top-belmont c20-region-1"><div class="hotel hotel-1" id="c20-hotel-1"></div><div class="hotel hotel-2" id="c20-hotel-2"></div><div class="hotel hotel-3" id="c20-hotel-3"></div></div><div class="region-middle c20-region-2">Old Holland Road</div><div class="region-bottom c20-region-3"><div class="playerBox-1" id="c20-playerBox-1"></div><div class="playerBox-2" id="c20-playerBox-2"></div><div class="playerBox-3" id="c20-playerBox-3"></div></div></div>
+  <div class="cell" id="c21"><div class="region-top-noHotel-penaltySpot c21-region-1"></div><div class="region-middle c21-region-2">Nigerian Scam</div><div class="region-bottom c21-region-3"><div class="playerBox-1" id="c21-playerBox-1"></div><div class="playerBox-2" id="c21-playerBox-2"></div><div class="playerBox-3" id="c21-playerBox-3"></div></div></div>
+</div>  <!-- end row1 wrapper -->
+
+<div class="row row2">  <!-- start row2 wrapper -->
+  <div class="cell" id="c12"><div class="region-top-noHotel-penaltySpot c12-region-1"></div><div class="region-middle c12-region-2">Lost $ in Casino</div><div class="region-bottom c12-region-3"><div class="playerBox-1" id="c12-playerBox-1"></div><div class="playerBox-2" id="c12-playerBox-2"></div><div class="playerBox-3" id="c12-playerBox-3"></div></div></div>
+  <div class="cell dice" id="dice1">1</div>
+  <div class="cell dice" id="dice2">2</div>
+  <div class="cell dice" id="dice3">3</div>
+  <div class="cell" id="status1">Status 1</div>
+  <div class="cell" id="p1-profile">Player 1</div>
+  <div class="cell" id="p2-profile">Player 2</div>
+  <div class="cell" id="p3-profile">Player 3</div>
+  <div class="cell" id="c22"><div class="region-top-belmont c22-region-1"><div class="hotel hotel-1" id="c22-hotel-1"></div><div class="hotel hotel-2" id="c22-hotel-2"></div><div class="hotel hotel-3" id="c22-hotel-3"></div></div><div class="region-middle c22-region-2">Belmont Road</div><div class="region-bottom c22-region-3"><div class="playerBox-1" id="c22-playerBox-1"></div><div class="playerBox-2" id="c22-playerBox-2"></div><div class="playerBox-3" id="c22-playerBox-3"></div></div></div>
+</div>  <!-- end row2 wrapper -->
+
+<div class="row row3">  <!-- start row3 wrapper -->
+  <div class="cell" id="c11"><div class="region-top-park c11-region-1"></div><div class="region-middle c11-region-2">West Coast Park</div><div class="region-bottom c11-region-3"><div class="playerBox-1" id="c11-playerBox-1"></div><div class="playerBox-2" id="c11-playerBox-2"></div><div class="playerBox-3" id="c11-playerBox-3"></div></div></div>
+  <div class="cell dice" id="dice8">8</div>
+  <div class="cell" id="boxE"><button type="button" id="roll">Roll Dice</button><p><button type="button" id="reload">Reload</button></p></div>
+  <div class="cell dice" id="dice4">4</div>
+  <div class="cell" id="status2">Status 2</div>
+  <div class="cell" id="">Resources</div>
+  <div class="cell" id="">Resources</div>
+  <div class="cell" id="">Resources</div>
+  <div class="cell" id="c23"><div class="region-top-park c23-region-1"></div><div class="region-middle c23-region-2">Leedon Park</div><div class="region-bottom c23-region-3"><div class="playerBox-1" id="c23-playerBox-1"></div><div class="playerBox-2" id="c23-playerBox-2"></div><div class="playerBox-3" id="c23-playerBox-3"></div></div></div>
+</div>  <!-- end row3 wrapper -->
+
+<div class="row row4">  <!-- start row4 wrapper -->
+  <div class="cell" id="c10"><div class="region-top-timah c10-region-1"><div class="hotel hotel-1" id="c10-hotel-1"></div><div class="hotel hotel-2" id="c10-hotel-2"></div><div class="hotel hotel-3" id="c10-hotel-3"></div></div><div class="region-middle c10-region-2">Rail Mall</div><div class="region-bottom c10-region-3"><div class="playerBox-1" id="c10-playerBox-1"></div><div class="playerBox-2" id="c10-playerBox-2"></div><div class="playerBox-3" id="c10-playerBox-3"></div></div></div>
+  <div class="cell dice" id="dice7">7</div>
+  <div class="cell dice" id="dice6">6</div>
+  <div class="cell dice" id="dice5">5</div>
+  <div class="cell" id="status3">Status 3</div>
+  <div class="cell" id="p1Assets">Assets</div>
+  <div class="cell" id="p2Assets">Assets</div>
+  <div class="cell" id="p3Assets">Assets</div>
+  <div class="cell" id="c24"><div class="region-top-sentosa c24-region-1"><div class="hotel hotel-1" id="c24-hotel-1"></div><div class="hotel hotel-2" id="c24-hotel-2"></div><div class="hotel hotel-3" id="c24-hotel-3"></div></div><div class="region-middle c24-region-2">Sentosa Cove</div><div class="region-bottom c24-region-3"><div class="playerBox-1" id="c24-playerBox-1"></div><div class="playerBox-2" id="c24-playerBox-2"></div><div class="playerBox-3" id="c24-playerBox-3"></div></div></div>
+</div>  <!-- end row4 wrapper -->
+
+<div class="row row5">  <!-- start row5 wrapper -->
+  <div class="cell" id="c9"><div class="region-top-surprise c9-region-1"></div><div class="region-middle c9-region-2">BIG SURPRISE</div><div class="region-bottom c9-region-3"><div class="playerBox-1" id="c9-playerBox-1"></div><div class="playerBox-2" id="c9-playerBox-2"></div><div class="playerBox-3" id="c9-playerBox-3"></div></div></div>
+  <div class="cell" id="c8"><div class="region-top-noHotel-penaltySpot c8-region-1"></div><div class="region-middle c8-region-2">Caught Spitting</div><div class="region-bottom c8-region-3"><div class="playerBox-1" id="c8-playerBox-1"></div><div class="playerBox-2" id="c8-playerBox-2"></div><div class="playerBox-3" id="c8-playerBox-3"></div></div></div>
+  <div class="cell" id="c7"><div class="region-top-west-1 c7-region-1"><div class="hotel hotel-1" id="c7-hotel-1"></div><div class="hotel hotel-2" id="c7-hotel-2"></div><div class="hotel hotel-3" id="c7-hotel-3"></div></div><div class="region-middle c7-region-2">Genting Hotel</div><div class="region-bottom c7-region-3"><div class="playerBox-1" id="c7-playerBox-1"></div><div class="playerBox-2" id="c7-playerBox-2"></div><div class="playerBox-3" id="c7-playerBox-3"></div></div></div>
+  <div class="cell" id="c6"><div class="region-top-west-1 c6-region-1"><div class="hotel hotel-1" id="c6-hotel-1"></div><div class="hotel hotel-2" id="c6-hotel-2"></div><div class="hotel hotel-3" id="c6-hotel-3"></div></div><div class="region-middle c6-region-2">Jurong GEM Mall</div><div class="region-bottom c6-region-3"><div class="playerBox-1" id="c6-playerBox-1"></div><div class="playerBox-2" id="c6-playerBox-2"></div><div class="playerBox-3" id="c6-playerBox-3"></div></div></div>
+  <div class="cell" id="c5"><div class="region-top-park c5-region-1"></div><div class="region-middle c5-region-2">Botanic Gardens</div><div class="region-bottom c5-region-3"><div class="playerBox-1" id="c5-playerBox-1"></div><div class="playerBox-2" id="c5-playerBox-2"></div><div class="playerBox-3" id="c5-playerBox-3"></div></div></div>
+  <div class="cell" id="c4"><div class="region-top-noHotel-penaltySpot c4-region-1"></div><div class="region-middle c4-region-2">Caught Smoking</div><div class="region-bottom c4-region-3"><div class="playerBox-1" id="c4-playerBox-1"></div><div class="playerBox-2" id="c4-playerBox-2"></div><div class="playerBox-3" id="c4-playerBox-3"></div></div></div>
+  <div class="cell" id="c3"><div class="region-top c3-region-1"><div class="hotel hotel-1" id="c3-hotel-1"></div><div class="hotel hotel-2" id="c3-hotel-2"></div><div class="hotel hotel-3" id="c3-hotel-3"></div></div><div class="region-middle c3-region-2">Punggol Waterway</div><div class="region-bottom c3-region-3"><div class="playerBox-1" id="c3-playerBox-1"></div><div class="playerBox-2" id="c3-playerBox-2"></div><div class="playerBox-3" id="c3-playerBox-3"></div></div></div>
+  <div class="cell" id="c2"><div class="region-top-waste c2-region-1"></div><div class="region-middle c2-region-2">Got Wasted</div><div class="region-bottom c2-region-3"><div class="playerBox-1" id="c2-playerBox-1"></div><div class="playerBox-2" id="c2-playerBox-2"></div><div class="playerBox-3" id="c2-playerBox-3"></div></div></div>
+  <div class="cell" id="c1"><div class="region-top-noHotel c1-region-1"></div><div class="region-middle c1-region-2">START</div><div class="region-bottom c1-region-3"><div class="playerBox-1" id="c1-playerBox-1"></div><div class="playerBox-2" id="c1-playerBox-2"></div><div class="playerBox-3" id="c1-playerBox-3"></div></div>
+</div>  <!-- end row5 wrapper -->
+
+
+</div>
+
+
+
+
+</header>
+
+
+
+</body>
+<footer>
+</footer>
+</div>

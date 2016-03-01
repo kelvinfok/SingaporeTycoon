@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+Button {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:block;;
+  margin: 8px auto;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+  height: 50%;
+  width: 70%;
+}
+Button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+
+.dice {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.fineSpot {
+  background: #ff3333;
+}
+
+.region-top-belmont {
+  background: #800080;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-top-noHotel {
+  background: lightblue;
+  height: 30px;
+}
+
+.region-top-noHotel-penaltySpot {
+  background: #ff3333;
+  height: 30px;
+}
+
+.region-top {
+  background: lightgreen;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-top-park {
+  background: #ceff82;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-top-waste {
+  background: grey;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-top-surprise {
+  background: gold;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-top-raffles {
+  background: #FF1493;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-top-west-1 {
+  background: #3b92a1;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-top-timah {
+  background: #b0ac69;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-top-sentosa {
+  background: #1919d2;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.region-middle {
+  background: whitesmoke;
+  height: 65px;
+  line-height: 65px;
+  font-size: 15px;
+}
+
+.region-bottom {
+  background: lightpink;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hotel {
+  flex-grow: 1;
+  background: whitesmoke;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 3px;
+}
+
+.hotel-1 {
+  /*background-image: url(../images/medal-1.png);*/
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hotel-2 {
+  /*background-image: url(../images/medal-2.png);*/
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hotel-3 {
+  /*background-image: url(../images/medal-3.png);*/
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.showPanda {
+  background-image: url(../images/panda-small.png);
+}
+
+.showRaph {
+  background-image: url(../images/raph-small.png);
+}
+
+.showElsa {
+  background-image: url(../images/elsa-small.png);
+}
+
+.playerBox-1 {
+  /*background: #9c9f61;*/
+  width: 49px;
+  border-right: 1px solid white;
+
+  /*background-image: url(../images/panda-small.png);*/
+}
+
+.playerBox-2 {
+  /*background: #b6be7f;*/
+  width: 49px;
+
+  /*background-image: url(../images/elsa-small.png);*/
+}
+
+.playerBox-3 {
+  /*background: #9e8886;*/
+  width: 49px;
+  border-left: 1px solid white;
+
+
+  /*background-image: url(../images/raph-small.png);*/
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+.row1 {
+  background: #D1E277;
+}
+.row2 {
+  background: #D1E277;
+}
+.row3 {
+  background: #D1E277;
+}
+.row4 {
+  background: #D1E277;
+}
+.row5 {
+  background: #D1E277;
+}
+
+
+/*#c25 {
+  background-image:url('http://www.oneshift.com/articles/uploads/large-news_4958.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;;
+}
+
+#c5 {
+  background-image: url('http://www.singaporepools.com.sg/assets/LP/subsite/img_sweep_aug15tix.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;;
+}
+
+
+#c21 {
+  background-image: url('http://cdn.mothership.sg/wp-content/uploads/2014/07/ippt-mindef.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;;
+}
+
+#c6 {
+  background-image: url('http://o.homedsgn.com/wp-content/uploads/2013/05/jkc2-13-800x533.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;;
+}*/
+
+.cell {
+  display:inline-block;
+  background: #e4e5e5;
+  margin: 5px;
+  flex-grow: 1;
+  width: 147px;
+  height: 125px;
+  text-align: center;
+  line-height: 125px;
+
+}
+
+.row {
+  margin: 0 auto;
+  display: flex;
+  flex-direction:row;
+}
+
+header {
+  height: 100vh;
+  background: #whitesmoke;
+  margin-top: 0px;
+}
+
+#gridContainer {
+  /*background: #fbeca8;*/
+  height: 100%;
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0:
+}
+
+.diceSelector {
+  background: #ff4747;
+}
+
+div#c1 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#penguin {
+  max-width:inherit;
+  max-height:inherit;
+}
