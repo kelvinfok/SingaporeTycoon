@@ -77,14 +77,8 @@ Button:hover {
 		top:1px;
 	}
 
-
-
-
-
-
-
-
-
+#p3-profile, #pandaCashDisplay, #p3Assets {
+	background: grey;
 }
 
 .dice {
