@@ -142,6 +142,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: #fb4a45;
+	color: white;
+	border: 5px solid #fb4a45;
+
 }
 
 .playerCashDisplay {
@@ -176,21 +180,28 @@
 #status-1 {
 	background: #ff0;
 	margin: 5px;
+	border: 3px solid #ff0;
+	vertical-align: middle;
 }
 
 #status-2 {
-	background: #ff0;
 	margin: 5px;
 }
 
 #status-3 {
-	background: #ff0;
-	margin: 5px;
+	background: #04c3df;
+	margin: 3px;
+	color: white;
+	border: 5px solid #04c3df;
+	vertical-align: middle;
 }
 
 #status-4 {
-	background: #ff0;
-	margin: 5px;
+	background: #04c3df;
+	margin: 3px;
+	color: white;
+	border: 5px solid #04c3df;
+	vertical-align: middle;
 }
 
 #p3-profile,#pandaCashDisplay,#p3Assets {
@@ -225,7 +236,7 @@
 }
 
 .region-top-noHotel-penaltySpot {
-	background: #f33;
+	background: grey;
 	height: 30px;
 }
 
